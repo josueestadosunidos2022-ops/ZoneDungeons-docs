@@ -1,17 +1,15 @@
 # ZoneDungeons
 
-## Current builds / Versiones actuales — 2026-11-03
+## Current builds / Versiones actuales — 2026-11-03 revision 2
 
-| Side / Lado | Version / Versión | CurseForge |
+| Side / Lado | Version | CurseForge |
 |---|---|---|
-| ZoneDungeons server | 1.0.0-beta7 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9426543) |
-| ZoneDungeons client | 1.0.0-beta7 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9426565) |
+| Server | 1.0.0-beta9 | [Server](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427364) |
+| Client | 1.0.0-beta9 | [Client](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427356) |
 
-Use Forge 47.4.10+ and compatible beta29 LevelUp; beta30 is excluded. / Usa Forge 47.4.10+ y LevelUp beta29 compatible; se excluye beta30.
+Five private expeditions, personal room-chest/final loot and nearby connected ZParty parties. BOTH sides require LevelUp [2.0.0-beta29-r53,2.0.0-beta30). Core is needed on the server through LevelUp, not in the separated multiplayer client. / Cinco expediciones privadas con cofres/botín personal y ZParty cercano conectado; LevelUp r53+ beta29 en ambos lados, Core solo servidor.
 
-[Changes, installation and compatibility / Cambios, instalación y compatibilidad](RELEASE-2026-11-03.md).
-
-Public protected Beta builds. A submitted file becomes downloadable only after CurseForge approval. / Betas públicas protegidas: cada archivo queda descargable cuando CurseForge lo aprueba.
+[Release notes / Cambios e instalación](RELEASE-2026-11-03-r2.md). Beta availability depends on file approval. / Disponibilidad sujeta a aprobación del archivo.
 
 ## Earlier documentation / Documentación anterior
 
