@@ -1,4 +1,21 @@
-# ZoneDungeons 1.0.0-beta6-r1
+# ZoneDungeons
+
+## Current builds / Versiones actuales — 2026-11-03
+
+| Side / Lado | Version / Versión | CurseForge |
+|---|---|---|
+| ZoneDungeons server | 1.0.0-beta7 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9426543) |
+| ZoneDungeons client | 1.0.0-beta7 | [Files / Archivos](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9426565) |
+
+Use Forge 47.4.10+ and compatible beta29 LevelUp; beta30 is excluded. / Usa Forge 47.4.10+ y LevelUp beta29 compatible; se excluye beta30.
+
+[Changes, installation and compatibility / Cambios, instalación y compatibilidad](RELEASE-2026-11-03.md).
+
+Public protected Beta builds. A submitted file becomes downloadable only after CurseForge approval. / Betas públicas protegidas: cada archivo queda descargable cuando CurseForge lo aprueba.
+
+## Earlier documentation / Documentación anterior
+
+The version and side table above takes precedence over historical versions below. / La tabla anterior prevalece sobre versiones históricas de la documentación siguiente.
 
 ## English
 
