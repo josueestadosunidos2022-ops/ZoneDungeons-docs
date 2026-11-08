@@ -1,49 +1,51 @@
 # ZoneDungeons
 
-## Current builds / Versiones actuales — 2026-11-03 revision 2
+Shared RPG dungeons in a dedicated expedition dimension. MasmorrasZ adds seven medieval structures, timed sessions, guardian fights, shared chests and a weekly leaderboard.
 
-| Side / Lado | Version | CurseForge |
-|---|---|---|
-| Server | 1.0.0-beta9 | [Server](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427364) |
-| Client | 1.0.0-beta9 | [Client](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427356) |
+Mazmorras RPG compartidas en dimensión de expediciones. MasmorrasZ añade siete estructuras medievales, sesiones con tiempo, guardianes, cofres compartidos y clasificación semanal.
 
-Five private expeditions, personal room-chest/final loot and nearby connected ZParty parties. BOTH sides require LevelUp [2.0.0-beta29-r53,2.0.0-beta30). Core is needed on the server through LevelUp, not in the separated multiplayer client. / Cinco expediciones privadas con cofres/botín personal y ZParty cercano conectado; LevelUp r53+ beta29 en ambos lados, Core solo servidor.
+## Current release / Entrega actual — 2026-11-08
 
-[Release notes / Cambios e instalación](RELEASE-2026-11-03-r2.md). Beta availability depends on file approval. / Disponibilidad sujeta a aprobación del archivo.
+| Side / Lado | Version / Versión |
+|---|---|
+| Server / Servidor | 1.0.0-beta10 |
+| Client / Cliente | 1.0.0-beta10 |
 
-## Earlier documentation / Documentación anterior
+**Compatibility / Compatibilidad:** Compatible with LevelUp r57/r58 protocol 60 / Compatible con LevelUp r57/r58 protocolo 60.
 
-The version and side table above takes precedence over historical versions below. / La tabla anterior prevalece sobre versiones históricas de la documentación siguiente.
+[Downloads / Descargas](https://www.curseforge.com/projects/1762213/files) · [Release / Novedades](RELEASE-2026-11-08.md) · [Configuration / Configuración](CONFIGURATION.md)
 
 ## English
 
-Administrator-built physical dungeons and independent farming spots, ordered rooms, mob profiles, a configurable final boss, personal loot and persistent encounter state. Use /zonedungeons lista, /zonedungeons entrar <id> and /zonedungeons estado. Administrators build the arena, define a draft, mark bounds/triggers/spawns, validate and publish it. Config: config/ZONEMODS/zonedungeons/. Beta6-r1 fixes TOML room ordering. Requires the matching ZoneLevelUp side. Never install the combined laboratory singleplayer JAR with the separated distributions.
+Minecraft 1.20.1, Forge 47.4.10–47.x, Java 17. ZoneLevelUp beta29-r57 or newer below beta30 is required on both sides; this release set uses r58. Core 2.1.4–2.x is needed by LevelUp server, not directly by the Dungeons client. Crates currency and Corail Tombstone are optional integrations; no Trek installation is required.
+
+Beta10 adds seven shared MasmorrasZ for levels 20/40/60/80/100/120/150, entered without ZParty. A five-minute queue starts with five players or its enrolled group when time expires. Guardians open all shared chests on victory; defaults grant each member 100 virtual coins and 500 exact LevelUp XP. Death retains the same session with native respawn and five-second ordinary-damage protection; `/zsalir` is voluntary exit. Weekly wins close Monday 00:00UTC with a default 500-coin first-place prize. Install the beta10 pair and LevelUp r58 pair on Forge 47.4.10+. Core is required through LevelUp server only; preserve dungeon/player data and review broad default loot before use.
+
+Use LevelUp → MUNDO → MasmorrasZ or `/masmorrasz lista`, then `/masmorrasz entrar nivel_20` when eligible. Leave with `/zsalir`. Operators configure each tier and reload only when no session/preparation is active.
 
 ## Español
 
-Mazmorras físicas creadas por administradores y spots independientes, salas ordenadas, perfiles de mobs, jefe final configurable, botín personal y persistencia. Usa /zonedungeons lista, entrar <id> y estado. La administración construye, configura borrador/límites/activadores/apariciones, valida y publica. Configuración: config/ZONEMODS/zonedungeons/. Beta6-r1 corrige el orden de salas TOML. Requiere ZoneLevelUp del lado correspondiente. No mezcles el JAR combinado de laboratorio con los separados.
+Minecraft 1.20.1, Forge 47.4.10–47.x, Java 17. ZoneLevelUp beta29-r57 o posterior menor que beta30 en ambos lados; esta tanda usa r58. Core 2.1.4–2.x lo exige LevelUp servidor, no directamente Dungeons cliente. Crates y Corail Tombstone son integraciones opcionales; no requiere instalar Trek.
+
+Beta10 añade siete MasmorrasZ compartidas para niveles 20/40/60/80/100/120/150, sin ZParty. Espera cinco minutos o empieza con cinco inscritos. Vencer al guardián abre todos los cofres compartidos; premio inicial 100 monedas virtuales y 500 XP exactos por miembro. Morir conserva sesión, reaparición nativa y cinco segundos de protección ordinaria; salida voluntaria `/zsalir`. Top semanal cierra lunes 00:00UTC y premia inicialmente al primero con 500 monedas. Instala pareja beta10 y LevelUp r58 en Forge 47.4.10+. Core solo mediante LevelUp servidor; conserva datos y revisa el amplio botín predeterminado.
+
+Usa LevelUp → MUNDO → MasmorrasZ o `/masmorrasz lista`, y `/masmorrasz entrar nivel_20` si cumples requisitos. Sale con `/zsalir`. Operadores ajustan niveles y recargan sin partidas/preparaciones activas.
+
+## Updating / Actualizar
+
+Stop the affected instance, back up world/configuration and replace only the previous same-mod/same-side JAR. Keep one JAR per mod per instance and preserve player data. / Detén la instancia correspondiente, respalda mundo/configuración y sustituye solo el JAR del mismo mod y lado. Conserva un JAR por mod e instancia y los datos de jugador.
+
+## Validation scope / Alcance de verificación
+
+The delivery records 877 isolated Forge checks, including 14 structural/fluid checks. A separate real Corail Tombstone 9.1.4 lab records 42 checks using simulated players, not network players or automatic grave creation on death. Full production-modpack gameplay/performance remains unverified.
+
+La entrega registra 877 comprobaciones Forge aisladas, incluidas 14 de estructura/fluidos. Corail Tombstone 9.1.4 real obtuvo 42 pruebas con jugadores simulados, no conectados ni creación automática de tumba al morir. Falta gameplay/rendimiento del modpack de producción.
+
+## Rights / Derechos
+
+Original ZONE code/assets © Elgochogms; existing third-party licenses and notices remain applicable. Public documentation repository. / Código y recursos originales ZONE © Elgochogms; se conservan licencias y avisos de terceros. Repositorio de documentación pública.
 
 
-| Side / Lado | Version | File |
-|---|---|---|
-| server | 1.0.0-beta6-r1 | `zonedungeons-1.0.0-beta6-r1-server-protected.jar` |
-| client | 1.0.0-beta6-r1 | `zonedungeons-1.0.0-beta6-r1-client-protected.jar` |
+## Previous documentation / Documentación anterior
 
-## Dependencies / Dependencias
-
-- **server**: zonelevelup: Required Dependency ([2.0.0-beta29-r26,2.0.0-beta30))
-- **client**: zonelevelup: Required Dependency ([2.0.0-beta29-r26,2.0.0-beta30))
-
-## Installation / Instalación
-
-Install only the file for each side. Never mix two versions or both side distributions in one mods folder. Back up the world and preserve TOML/player data. Dedicated-server-only mods do not belong in a client modpack.
-
-Instala solo el archivo del lado correspondiente. No mezcles versiones ni ambos JAR en una carpeta mods. Respalda mundo y conserva TOML/progreso. Los mods exclusivos de servidor no van en el modpack de cliente.
-
-Protected public files retain features without distributing private source, mappings or production configuration/account data. File/resources/shared schemas and isolated server startup/clean save were checked; no new GUI/full-modpack or live multiplayer test was performed. File availability depends on CurseForge approval.
-
-Los archivos públicos conservan funciones con protección, sin fuentes, mappings ni datos privados. Se verificaron archivos/esquemas y arranque/cierre local aislado; no una nueva prueba gráfica o multijugador real. Disponibilidad sujeta a aprobación de CurseForge.
-
-## Ownership / Titularidad
-
-Original ZONE code and artwork © Elgochogms. All Rights Reserved. Public documentation repository only; source and mappings remain private.
+[Beta9 release guide / Guía beta9](RELEASE-2026-11-03-r2.md) · [Historical beta9 server / Servidor beta9 histórico](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427364) · [Historical beta9 client / Cliente beta9 histórico](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427356). Use the current pair above for beta10. / Para beta10 usa la pareja actual indicada arriba.
