@@ -1,10 +1,34 @@
 # ZoneDungeons
 
+## 1.0.0-beta14 · Forge 1.20.1 · Java 17
+
+### Español
+
+La dificultad de expediciones y arenas se fija al entrar según el equipo. Las sesiones activas conservan su dificultad. La versión conserva MasmorrasZ y las configuraciones existentes.
+
+Instala beta14 en ambos lados. Requiere Forge 47.4.10–47.x y ZoneLevelUp beta29-r70 o posterior de la rama beta29 en ambos lados. Empareja el cliente y servidor de LevelUp.
+
+### English
+
+Expedition and arena difficulty now use the party state at entry. Active sessions keep their chosen difficulty. The release keeps MasmorrasZ and the existing configurations.
+
+Install beta14 on both sides. Requires Forge 47.4.10–47.x and ZoneLevelUp beta29-r70 or later in the beta29 line on both sides. Use the matching LevelUp client and server.
+
+## Archivos de esta versión / Files for this version
+
+- [Servidor / Server](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9671090)
+- [Cliente / Client](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9671104)
+
+[Notas de versión / Release notes](RELEASE-2026-11-17.md)
+
+<details>
+<summary>Documentación de versiones anteriores / Earlier release documentation</summary>
+
 Shared RPG dungeons in a dedicated expedition dimension. MasmorrasZ adds seven medieval structures, timed sessions, guardian fights, shared chests and a weekly leaderboard.
 
 Mazmorras RPG compartidas en dimensión de expediciones. MasmorrasZ añade siete estructuras medievales, sesiones con tiempo, guardianes, cofres compartidos y clasificación semanal.
 
-## Current release / Entrega actual — 2026-11-08
+## Historical notes · Current release / Entrega actual — 2026-11-08
 
 | Side / Lado | Version / Versión |
 |---|---|
@@ -49,3 +73,5 @@ Original ZONE code/assets © Elgochogms; existing third-party licenses and notic
 ## Previous documentation / Documentación anterior
 
 [Beta9 release guide / Guía beta9](RELEASE-2026-11-03-r2.md) · [Historical beta9 server / Servidor beta9 histórico](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427364) · [Historical beta9 client / Cliente beta9 histórico](https://www.curseforge.com/minecraft/mc-mods/zonedungeons/files/9427356). Use the current pair above for beta10. / Para beta10 usa la pareja actual indicada arriba.
+
+</details>
